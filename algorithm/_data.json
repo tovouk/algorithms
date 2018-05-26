@@ -1,0 +1,8 @@
+{
+    "linear":{
+        "name": "Linear Search"
+    },
+    "binary": {
+        "name":"Binary search"
+    }
+}
