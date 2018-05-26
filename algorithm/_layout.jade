@@ -1,0 +1,12 @@
+html
+    head
+        title #{name}
+        link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', rel='stylesheet')
+        link(rel="stylesheet" href="../main.css")
+    body
+    h1 #{name}
+    != yield
+    
+    hr
+    br
+    p Copyright © 2018
