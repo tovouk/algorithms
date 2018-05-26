@@ -5,8 +5,11 @@
   "main": "index.jade",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "harp server"
+    "start": "harp server --port $PORT"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "harp": "*"
+  }
 }
